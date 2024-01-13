@@ -1,0 +1,70 @@
+[0m16:32:34.173192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe47b669e70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe47bdf2f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe47bdf2ef0>]}
+
+
+============================== 16:32:34.186683 | a3e2aada-9bad-4995-981b-773e3b244e93 ==============================
+[0m16:32:34.186683 [info ] [MainThread]: Running with dbt=1.6.1
+[0m16:32:34.187313 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/vscode/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:32:34.187791 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/vscode/.dbt')}
+[0m16:32:34.188229 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m16:32:59.734699 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m16:32:59.746111 [info ] [MainThread]: 
+Your new dbt project "nyc_packing_violations" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:32:59.746707 [info ] [MainThread]: Setting up your profile.
+[0m16:32:59.747480 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m16:32:59.748223 [debug] [MainThread]: Command `dbt init` failed at 16:32:59.748108 after 25.58 seconds
+[0m16:32:59.748656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe47b669e70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe4794db970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe4794dbac0>]}
+[0m16:32:59.749116 [debug] [MainThread]: Flushing usage events
+[0m16:35:00.159366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec35965f00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec35f92ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec35f92e60>]}
+
+
+============================== 16:35:00.167333 | 2217818e-49e7-4ccc-9e82-9e708278226a ==============================
+[0m16:35:00.167333 [info ] [MainThread]: Running with dbt=1.6.1
+[0m16:35:00.168217 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:35:07.550465 [info ] [MainThread]: A project called nyc_parking_violations already exists here.
+[0m16:35:07.551672 [debug] [MainThread]: Command `dbt init` succeeded at 16:35:07.551494 after 7.40 seconds
+[0m16:35:07.552139 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec35965f00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec37bdf820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec337d7ac0>]}
+[0m16:35:07.552624 [debug] [MainThread]: Flushing usage events
+[0m16:37:20.094028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5fe9105ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5fe9732ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5fe9732e90>]}
+
+
+============================== 16:37:20.098800 | cd16b30b-2483-469d-8b15-f4b00f2d52f4 ==============================
+[0m16:37:20.098800 [info ] [MainThread]: Running with dbt=1.6.1
+[0m16:37:20.099462 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m16:37:32.821936 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m16:37:32.828032 [info ] [MainThread]: 
+Your new dbt project "nyc_parking_violations" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:37:32.828631 [info ] [MainThread]: Setting up your profile.
+[0m17:05:02.221429 [info ] [MainThread]: No sample profile found for duckdb.
+[0m17:05:02.222390 [debug] [MainThread]: Command `dbt init` succeeded at 17:05:02.222270 after 1662.13 seconds
+[0m17:05:02.222823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5fe9105ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5feb37f820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5fe6f77b80>]}
+[0m17:05:02.223287 [debug] [MainThread]: Flushing usage events
